@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    /* border: 1px solid red; */
+
+    color: #000;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+#navbar {
+    width: 100%;
+}
+
+.nav-image {
+    width: 50px;
+}
+
+.navbar {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+
+}
+
+/* form */
+.form {
+    width: 728px;
+    height: 570px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form-h2 {
+    margin: 70px 0 40px 0;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+}
+
+.input {
+    width: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.input a {
+    opacity: 50%;
+    color: #001AFF;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    height: 56px;
+    border-radius: 10px;
+    border: 2px solid #8F00FF;
+    background: #FFF;
+    margin-bottom: 20px;
+    color: #000000;
+    opacity: 50%;
+    padding: 0 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.confirm {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    align-items: start;
+}
+
+.form-checkbox {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    background-image: url(/3/img/Property\ 1=Default.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-checkbox:checked {
+    background-image: url('/3/img/Property\ 1=Variant2.png');
+}
+.form-label {
+    width: 300px;
+    height: 60px;
+    opacity: 50%;
+    margin-left: 20px;
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.from-button {
+    width: 465px;
+    height: 63px;
+    margin-top: 20px;
+    flex-shrink: 0;
+    background-color: #8F00FF;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
