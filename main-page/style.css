@@ -5,7 +5,6 @@
     /* border: 1px solid red; */
     text-decoration: none;
     list-style: none;
-    color: #000;
     text-align: center;
 }
 
@@ -115,60 +114,190 @@
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
 }
 
-
-
-.dropbtn {
-    width: 260px;
+.catalog {
+    width: 220px;
     height: 67px;
     flex-shrink: 0;
+    background-color: #8F00FF;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.catalogue-item {
+    width: 220px;
+    height: 40px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #F7F8FA;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.main-find {
+    width: 830px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 8px 0 0 8px;
+    border: 2px solid #8F00FF;
+}
+
+.main-div {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 46px;
+}
+
+.find-button {
+    width: 89.156px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 0px 7px 6px 0px;
     background: #8F00FF;
     border: none;
-    cursor: pointer;
-    color: #FFF;
-    font-size: 16px;
+    color: #fff;
+}
+
+.find {
+    display: flex;
+}
+
+.main-carousel {
+    width: 923px;
+    height: 480px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.page-active {
+    height: 480px;
+    width: 760px;
+    display: flex;
+}
+
+.none-active-pages {
+    width: 158px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info-carousel {
+    width: 382px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.image-carousel {
+    width: 375px;
+    height: 480px;
+    background-image: url("/3/img/5a5edcea2e90d3252963800f293f2539.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.collection {
+    width: 300px;
+    height: 25px;
+    flex-shrink: 0;
+    color: #8F00FF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 118.182% */
+    letter-spacing: 1.1px;
+    margin-bottom: 10px;
+}
+
+.slide-info {
+    width: 382px;
+    height: 140px;
+    color: #2F2F2F;
+    font-size: 40px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.32px;
+    text-align: start;
+    margin-bottom: 10px;
 }
 
-.dropdown {
-    position: relative;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    width: 260px;
-    height: 454px;
+.discount {
+    width: 324px;
+    height: 25px;
     flex-shrink: 0;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
+    color: rgba(81, 81, 81, 0.71);
+    font-family: 'Mulish', sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    /* 96.296% */
+    margin-bottom: 30px;
 }
 
-.dropdown-content a {
-    height: 41px;
+.carousel-btn {
+    width: 129px;
+    height: 40px;
     flex-shrink: 0;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 5px;
+    background: #8F00FF;
+    border: none;
+    color: #fff;
 }
 
-.dropdown-content a:hover {
-    background-color: #f1f1f1
+.none-img {
+    width: 70px;
+    height: 75.714px;
+    flex-shrink: 0;
+    background-image: url("/3/img/Rectangle\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
 }
 
+.page-item {
+    margin-top: 20px;
+    width: 98px;
+    height: 91.467px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid #FFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.56) 100%);
+    box-shadow: 0px 4px 22px 0px rgba(0, 0, 0, 0.00);
+}
 
+.image-info {
+    width: 60px;
+    height: 10px;
+    color: var(--primary, #555);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    /* 371.429% */
+}
 
-.dropdown:hover .dropbtn {
-    background-color: #8F00FF;
-    opacity: 80%;
+.price-page {
+    color: #8F00FF;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
 }
